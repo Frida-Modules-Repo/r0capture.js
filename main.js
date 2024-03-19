@@ -1,3 +1,11 @@
+/**
+ * 日志保存目录：/sdcard/Android/data/{packageName}/cache/r0capture/{processName}/{threadName}_{timestamp}.log
+ */
+/**
+ *
+ * @param ip
+ * @returns {number}
+ */
 function ipToNumber(ip) {
     var num = 0;
     if (ip == "") {
